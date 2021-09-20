@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+header {
+    margin: 1rem auto;
+    text-align: center;
+    color:blue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    border: 3px solid rgb(28, 30, 187);
+    padding: 1rem;
+    margin: 1rem;
+    width: 65%;
+    max-width: 550px;
+    height: 70vh;
+    box-shadow: 5px 5px rgb(28, 30, 187);
+    border-radius: 20px;
+}
+
+article {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+input {
+    display: block;
+    ;
+    width: 100%;
+    max-width: 300px;
+    min-width: 190px;
+    height: 2rem;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    border: 3px solid blue;
+    border-radius: 11px;
+    color: blue;
+    font-size: 1rem;
+    outline: none;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+button {
+    display: block;
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border-color: blue;
+    min-width: 80px
+}
+
+#warn {
+    margin-top: 1rem;
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    display: none;
+}
+
+.output {
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.wait {
+    display: none;
+    width: 100%;
+    margin: auto
+}
+
+.wait img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.wait div {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: bold;
+}
+
+#result {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#result div {
+    margin-top: 1rem;
+}
+
+#result img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    max-height: 300px;
+}
+
+footer img {
+    display: block;
+    width: 100%;
+}
+
+footer div {
+    bottom: 0;
+    position: fixed;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

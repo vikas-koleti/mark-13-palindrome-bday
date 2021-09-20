@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Palindrome Birthday
+        </h1>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <label for="bday">Enter your date of birth</label>
+                <input type="date" id="bday" />
+
+                <button id="check">Check</button>
+
+                <div id="warn">Please enter correct date!</div>
+
+                <div class="output">
+
+                    <div class="wait" id="waiting">
+                        <img src="tenor.gif" alt="/">
+                        <div>Processing...trying with different variations..</div>
+                    </div>
+
+                    <div id="result">
+                        <img src="yay.gif" alt="/" id="img-yay" style="display: none;">
+                        <img src="nah.gif" alt="/" id="img-nah" style="display: none;">
+
+                        <div id="div-yay" style="display: none;">Yay! You were born on a Palindrome birthday!</div>
+
+                        <div id="div-nah" style="display: none;">Nah! Your birthday is not Palindrome. You missed it by
+                            <span id="span-days">x</span> days.</div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+        <img src="wave.svg" alt="/">
+
+        <div>
+
+            <div class="center">
+                Made by <a href="https://vickytrialone.netlify.app/" target="_blank">Vikas K</a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
